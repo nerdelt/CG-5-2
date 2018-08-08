@@ -32,16 +32,19 @@ namespace SimpleCalc2
                 if (operation == "add")
                 {
                     answer = Add(first, second);
+                    Console.WriteLine($"{first} + {second} = {answer}");
                 }
 
                 else if (operation == "subtract")
                 {
                     answer = Subtract(first, second);
+                    Console.WriteLine($"{first} - {second} = {answer}");
                 }
 
                 else if (operation == "multiply")
                 {
                     answer = Multiply(first, second);
+                    Console.WriteLine($"{first} x {second} = {answer}");
                 }
 
                 else if (operation == "divide")
@@ -51,6 +54,7 @@ namespace SimpleCalc2
                         answer = Divide(first, second);
                     }
 
+                    Console.WriteLine($"{first} / {second} = {answer}");
                 }
        
                 else
@@ -75,7 +79,6 @@ namespace SimpleCalc2
             private static double Add(double first, double second)
             {
                 double solution = first + second;
-                Console.WriteLine($"{first} + {second} = {solution}");
                 return solution;
             }
 
@@ -88,7 +91,6 @@ namespace SimpleCalc2
             private static double Subtract(double first, double second)
             {
                 double solution = first - second;
-                Console.WriteLine($"{first} - {second} = {solution}");
                 return solution;
             }
 
@@ -101,7 +103,6 @@ namespace SimpleCalc2
             private static double Multiply(double first, double second)
             {
                 double solution = first * second;
-                Console.WriteLine($"{first} x {second} = {solution}");
                 return solution;
             }
 
@@ -114,7 +115,6 @@ namespace SimpleCalc2
             private static double Divide(double first, double second)
             {
                 double solution = first / second;
-                Console.WriteLine($"{first} / {second} = {solution}");
                 return solution;
             }
 
