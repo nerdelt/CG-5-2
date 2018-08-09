@@ -73,48 +73,48 @@ namespace SimpleCalc2
             /// <summary>
             /// This method adds two doubles.
             /// </summary>
-            /// <param name="first">The first user input double.</param>
-            /// <param name="second">The second user input double.</param>
+            /// <param name="firstNum">The first user input double.</param>
+            /// <param name="secondNum">The second user input double.</param>
             /// <returns>A double that is the solution of the addition equation.</returns>
-            private static double Add(double first, double second)
+            private static double Add(double firstNum, double secondNum)
             {
-                double solution = first + second;
+                double solution = firstNum + secondNum;
                 return solution;
             }
 
              /// <summary>
              /// This method subtracts the second double from the first. 
              /// </summary>
-             /// <param name="first">The first user input double.</param>
-             /// <param name="second">The second user input double.</param>
+             /// <param name="firstNum">The first user input double.</param>
+             /// <param name="secondNum">The second user input double.</param>
              /// <returns>The soltuion of the subtraction of second double from first.</returns>
-            private static double Subtract(double first, double second)
+            private static double Subtract(double firstNum, double secondNum)
             {
-                double solution = first - second;
+                double solution = firstNum - secondNum;
                 return solution;
             }
 
             /// <summary>
             /// This method multiplies two doubles. 
             /// </summary>
-            /// <param name="first">The first user input double.</param>
-            /// <param name="second">The second user input double.</param>
+            /// <param name="firstNum">The first user input double.</param>
+            /// <param name="secondNum">The second user input double.</param>
             /// <returns>A double that is the soltuion of the multiplication equation.</returns>
-            private static double Multiply(double first, double second)
+            private static double Multiply(double firstNum, double secondNum)
             {
-                double solution = first * second;
+                double solution = firstNum * secondNum;
                 return solution;
             }
 
             /// <summary>
             /// This method divides the first double by the second. 
             /// </summary>
-            /// <param name="first">The first user input double.</param>
-            /// <param name="second">The second user input double.</param>
+            /// <param name="firstNum">The first user input double.</param>
+            /// <param name="secondNum">The second user input double.</param>
             /// <returns>A double that is the solution of the division equation.</returns>
-            private static double Divide(double first, double second)
+            private static double Divide(double firstNum, double secondNum)
             {
-                double solution = first / second;
+                double solution = firstNum / secondNum;
                 return solution;
             }
 
